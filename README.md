@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object Model. The Document Object Model is an API and is essentially node.js but in the browser and can be viewed with inspect tools. It is the representation in your server of all the code from your IDE.
+
 2. What is an event?
+
+Events are used to trigger different things. You can set a function to trigger a line or block of code when the “event” is fired. This can be as simple as a click on the right element or hovering over a header.
 
 3. What is an event listener?
 
+An event listener is a function that is waiting for an event to occur so that it may fire a block or line of code.
+
 4. Why would we convert a NodeList into an Array?
 
+You cannot use the new ES6 array methods with novelist so you need to convert NodeList to an array to use .forEach and .map .filter etc. 
+
 5. What is a component?
+
+A component is a block of code that is created so that it can be reused in many ways to keep code D.R.Y.
 
 ### Git Set up
 
